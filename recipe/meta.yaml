@@ -1,5 +1,5 @@
 {% set name = "clumper" %}
-{% set version = "0.2.11" %}
+{% set version = "0.2.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/clumper-{{ version }}.tar.gz
-  sha256: 698b74a1c0adc8c25270e2668a66882a832be9d520f1ffd4f05c25286b72e735
+  sha256: 277e1df66b9d021c2eaf0317b8292dfee189ae49a14716f6962344903ea9959b
 
 build:
   number: 0
